@@ -109,7 +109,7 @@ server.get("/api/users", (req, res) => {
   });
   
   //Set up port
-  const port = 8000;
+  const port = 9000;
   server.listen(port, () => console.log(`\n API running on port ${port}\n`));
   
 
